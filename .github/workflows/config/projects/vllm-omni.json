@@ -842,6 +842,16 @@
     },
     {
       "platform": "huggingface",
+      "organization": "liarliar",
+      "dataset_name": "Daily-Omni"
+    },
+    {
+      "platform": "huggingface",
+      "organization": "lmms-eval",
+      "dataset_name": "Video-MME"
+    },
+    {
+      "platform": "huggingface",
       "organization": "zhuzilin",
       "dataset_name": "dapo-math-17k",
       "local_dir": "~/.cache/huggingface/datasets/dapo-math-17k"
