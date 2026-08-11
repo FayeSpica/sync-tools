@@ -867,6 +867,11 @@
     },
     {
       "platform": "huggingface",
+      "organization": "YiYiXu",
+      "dataset_name": "testing-images"
+    },
+    {
+      "platform": "huggingface",
       "organization": "zhuzilin",
       "dataset_name": "dapo-math-17k",
       "local_dir": "~/.cache/huggingface/datasets/dapo-math-17k"
