@@ -852,6 +852,11 @@
     },
     {
       "platform": "huggingface",
+      "organization": "lmms-lab",
+      "dataset_name": "Video-MME"
+    },
+    {
+      "platform": "huggingface",
       "organization": "zhuzilin",
       "dataset_name": "dapo-math-17k",
       "local_dir": "~/.cache/huggingface/datasets/dapo-math-17k"
