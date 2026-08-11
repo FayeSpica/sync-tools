@@ -622,6 +622,16 @@
     },
     {
       "platform": "huggingface",
+      "organization": "hunyuanvideo-community",
+      "model_name": "HunyuanVideo-1.5-Diffusers-480p_t2v"
+    },
+    {
+      "platform": "huggingface",
+      "organization": "hunyuanvideo-community",
+      "model_name": "HunyuanVideo-1.5-Diffusers-480p_i2v"
+    },
+    {
+      "platform": "huggingface",
       "organization": "Qwen",
       "model_name": "Qwen3-30B-A3B",
       "local_dir": "~/.cache/huggingface/models/Qwen3-30B-A3B"
