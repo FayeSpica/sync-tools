@@ -67,6 +67,11 @@
     },
     {
       "platform": "huggingface",
+      "organization": "microsoft",
+      "model_name": "wavlm-base-plus"
+    },
+    {
+      "platform": "huggingface",
       "organization": "MiniMaxAI",
       "model_name": "MiniMax-H3"
     },
