@@ -116,14 +116,6 @@ workflow 根据域名自动匹配认证信息，目前支持的源/目标 regist
 
 `models` 或 `datasets` 任一为空数组都可以，对应类型会被跳过。
 
-#### 可视化管理 vLLM Omni 硬件清单
-
-通过 GitHub Pages 打开 `tools/vllm-omni-config-manager.html` 时，管理器会自动加载同目录的
-`tools/vllm-omni-only.json`；本地直接打开时，可选择或拖入该 JSON。管理器将模型和数据集分开显示，资源行使用
-`organization/name` ID，并提供可复制的 Hugging Face CLI 下载命令。它支持搜索、添加、编辑、
-删除资源，以及切换模型和数据集所属的 A2 / A3 / A5 / 310P 分组。保存时会把四组资源的
-并集同步到顶层 `models` 和 `datasets`，以兼容现有同步工作流；其他字段保持不变。
-
 > **持久化**：ARC runner pod 在 `/root/.cache` 挂载了持久化卷，所以 SDK 默认 cache 路径下的内容会跨任务保留，相同 revision 不会重复下载。
 
 [vllm](.github/workflows/config/projects/vllm.json) ·
